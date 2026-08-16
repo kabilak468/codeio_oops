@@ -21,12 +21,16 @@ class cat extends animal{
         System.out.println("Says meow");
     }
 }
-
+//child3-Method overriding
+class kangaroo extends animal{
+    public void leg(){
+        System.out.println("It has two legs");
+    }
+}
 class inherit{
     public static void main(String[] args) {
-        dog obj =new dog();
+        kangaroo obj =new kangaroo();
         obj.leg();
         obj.walk();
-        obj.sound();
     }
 }
