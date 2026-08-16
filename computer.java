@@ -5,6 +5,7 @@ abstract class computer {
     }
 }
 //Abstract class cannot be accessed directly..instead we can inherit the class and use it...
+//Objects cant be created for abstracted methods
 class hp extends computer{
 }
 class Abstract{
