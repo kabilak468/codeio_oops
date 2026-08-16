@@ -1,6 +1,6 @@
 public class inheritance {
     public static void main(String[] args) {
-        son obj=new son();
+        child obj=new child();
         System.out.println(obj.gender);
         obj.print();
     }
@@ -22,4 +22,11 @@ class son extends father{
     void print(){
         System.out.println("third class");
     } 
+}
+
+class child extends daughter{
+    String gender="F";
+    void print(){
+        System.out.println("fourth class");
+    }  
 }
