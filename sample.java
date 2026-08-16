@@ -9,7 +9,6 @@ public class sample {
     }
     
     //Non-Parameterised Constructor creation
-
     /*
     sample(){
         //Always used as default values
