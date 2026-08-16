@@ -5,10 +5,16 @@ public class inheritance {
         obj.print();
     }
 }
-class father{
+class grandfather{
     String gender="M";
     void print(){
-        System.out.println("Parent class");
+        System.out.println("first class");
+    } 
+}
+class father extends grandfather{
+    String gender="M";
+    void print(){
+        System.out.println("second class");
     }    
 }
 class son extends father{
