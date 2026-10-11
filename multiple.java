@@ -1,6 +1,6 @@
 //Multiple inheritance is used here
 
-interface dad{
+interface dada{
     abstract void talk();
 }
 interface mom{
